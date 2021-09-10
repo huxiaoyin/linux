@@ -56,5 +56,5 @@ exec --no-startup-id qv2ray
 
 [YouTuBe科学上网博主](https://www.youtube.com/channel/UCEBoI_hmSUNjRU4O86Y6TJg)
 
-
+[SwitchyOmega pac](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
