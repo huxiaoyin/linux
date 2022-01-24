@@ -10,6 +10,17 @@ sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
 ```
 
+#####HIDPI
+~/.Xresources
+
+Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
 ##### 下载中文字体
 
 ```bash
@@ -17,7 +28,7 @@ sudo pacman -S ttf-roboto noto-fonts ttf-dejavu
 # 文泉驿
 sudo pacman -S wqy-bitmapfont wqy-microhei wqy-microhei-lite wqy-zenhei
 # 思源字体
-sudo pacman -S noto-fonts-cjk adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts</pre>
+sudo pacman -S noto-fonts-cjk adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
 ```
 
 ##### 安装搜狗拼音
