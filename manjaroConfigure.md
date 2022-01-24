@@ -10,7 +10,13 @@ sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
 ```
 
-#####HIDPI
+##### archlinuxcn
+```
+[archlinuxcn]
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+```
+##### HIDPI
+```
 ~/.Xresources
 
 Xft.dpi: 144
@@ -20,6 +26,7 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+```
 
 ##### 下载中文字体
 
