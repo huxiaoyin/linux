@@ -23,16 +23,19 @@ sudo pacman -S noto-fonts-cjk adobe-source-han-sans-cn-fonts adobe-source-han-se
 ##### 安装搜狗拼音
 
 ```bash
-yay -S fcitx fcitx-im fcitx-configtool fcitx-sogoupinyin
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
 
-sudo vim .xprofile	#编辑配置文件
+sudo vim ~/.pam_environment	#编辑配置文件
 
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
+GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx
+INPUT_METHOD  DEFAULT=fcitx
+SDL_IM_MODULE DEFAULT=fcitx
 
-sudo vim .i3/config #i3wm设置开机启动
-exec --no-startup-id fcitx
+sudo pacman -S fcitx5-pinyin-zhwiki
+sudo pacman -S fcitx5-pinyin-moegirl
+sudo pacman -S fcitx5-nord
 ```
 
 
@@ -48,8 +51,6 @@ sudo vim .xprofile #配置代理
 export http_proxy="http://127.0.0.1:8889"
 export https_proxy="http://127.0.0.1:8889" 
 
-sudo vim .i3/config #i3wm设置开机启动
-exec --no-startup-id qv2ray
 ```
 
 [免费中转节点](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7)
