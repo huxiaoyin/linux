@@ -1,15 +1,3 @@
-##### 设置国内镜像源
-
-```bash
-sudo pacman-mirrors -i -c China -m rank
-```
-
-##### 升级系统
-
-```bash
-sudo pacman -Syyu
-```
-
 ##### archlinuxcn
 ```
 [archlinuxcn]
