@@ -1,9 +1,12 @@
 ##### archlinuxcn
+
 ```
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
+
 ##### HIDPI
+
 ```
 ~/.Xresources
 
@@ -31,7 +34,7 @@ sudo pacman -S noto-fonts-cjk adobe-source-han-sans-cn-fonts adobe-source-han-se
 ```bash
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
 
-sudo vim ~/.pam_environment	#编辑配置文件
+sudo vim ~/.pam_environment    #编辑配置文件
 
 GTK_IM_MODULE DEFAULT=fcitx
 QT_IM_MODULE  DEFAULT=fcitx
@@ -44,8 +47,6 @@ sudo pacman -S fcitx5-pinyin-moegirl
 sudo pacman -S fcitx5-nord
 ```
 
-
-
 ##### 科学上网
 
 ```bash
@@ -56,12 +57,28 @@ yay -S qv2ray v2ray
 sudo vim .xprofile #配置代理
 export http_proxy="http://127.0.0.1:8889"
 export https_proxy="http://127.0.0.1:8889" 
-
 ```
 
-[免费中转节点](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7)
+[免费中转节点](https://github.com/freefq/free)
 
 [YouTuBe科学上网博主](https://www.youtube.com/channel/UCEBoI_hmSUNjRU4O86Y6TJg)
 
 [SwitchyOmega pac](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
+
+
+
+##### Software
+
+timeshift 系统还原
+
+optimus-manager 双显卡
+
+
+
+
+
+
+
+
+
 
