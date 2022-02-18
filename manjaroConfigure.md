@@ -73,7 +73,7 @@ timeshift 系统还原
 
 optimus-manager 双显卡
 
-
+idea (window manager $ wmname LG3D)
 
 
 
