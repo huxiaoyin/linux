@@ -68,6 +68,8 @@ export https_proxy="http://127.0.0.1:8889"
 
 
 ##### Software
+zsh(zsh-syntax-highlighting zsh-autosuggestions)
+
 maim  截图（maim -u -f png | tee "$file"）
 
 timeshift 系统还原
