@@ -78,7 +78,9 @@ optimus-manager 双显卡
 
 idea (window manager $ wmname LG3D)
 
-
+mysql ( $mysqld --initialize --user=mysql
+        $sudo systemctl start mysqld
+        $mysql_secure_installation  )
 
 
 
