@@ -65,10 +65,9 @@ export https_proxy="http://127.0.0.1:8889"
 
 [SwitchyOmega pac](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
-
-
 ##### Software
-zsh(zsh-syntax-highlighting zsh-autosuggestions)
+
+zsh ( zsh-syntax-highlighting zsh-autosuggestions )
 
 maim  截图（maim -u -f png | tee "$file"）
 
@@ -80,12 +79,10 @@ idea (  window manager $ wmname LG3D
         https://plugins.zhile.io
         IDE Eval Reset)
 
-mysql ( $mysqld --initialize --user=mysql
-        $sudo systemctl start mysqld
-        $mysql_secure_installation  )
+mysql 
 
-
-
-
-
-
+```bash
+mysqld --initialize --user=mysql 
+sudo systemctl start mysqld
+mysql_secure_installation
+```

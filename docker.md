@@ -6,5 +6,3 @@ newgrp docker                  #更新用户组
 cat /etc/group|grep docker
 sudo systemctl restart docker
 ```
-
-
