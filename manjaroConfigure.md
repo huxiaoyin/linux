@@ -4,6 +4,10 @@
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
+ERROR
+remove the /etc/pacman.d/gnupg folder
+pacman-key --init
+pacman-key --populate archlinux
 
 ##### HIDPI
 
